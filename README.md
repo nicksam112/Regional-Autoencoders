@@ -8,14 +8,14 @@ This fork of OpenAI Baselines is modified to include an implementation of Nichol
 
 This was implemented with OpenAI's baselines project in order to provide a standardized approach to testing the preprocessing effectiveness. Not included with this though is the code to create the actual autoencoder that is loaded in as part of the methodology. Currently this project cannot be run "as-is" since it requires a trained autoencoder to encode the sprite values, the weight files of which were deleted. If you wish to use this before it's updated with demo weight files, any network that takes in an 8 x 8 image and outputs 2 autoencoded values should generally work fine, we specifically used a VAE. 
 
-Below is the original description for this project.
+## Below is the original link and description for OpenAI baslines.
 <!--
 <img src="data/logo.jpg" width=25% align="right" /> 
 -->
 
 [OpenAI Baselines](https://github.com/openai/baselines)
 
-# Baselines
+### Baselines
 
 OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
 
