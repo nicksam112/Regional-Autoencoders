@@ -13,6 +13,8 @@ Below is the original description for this project.
 <img src="data/logo.jpg" width=25% align="right" /> 
 -->
 
+[OpenAI Baselines](https://github.com/openai/baselines)
+
 # Baselines
 
 OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
