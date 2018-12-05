@@ -1,6 +1,6 @@
 # Regional Autoencoders 
 
-This fork of OpenAI Baselines is modified to include an implementation of Nicholas Samoray's Undergrad Thesis: Regional Autoencoders with Deep Reinforcement Learning. All changed code is contained within the ```common/atari_wrappers.py``` file. The Regional Autoencoder is used only as a preprocessing step, with the final output being a 20 x 20 x 6 tensor to be fed into any network of your choosing. This means it can hypothetically work with any RL method the user wants. As to it's actual effectiveness for any given RL method however, that's a little less clear. For details on the implementation and general idea, check out the linked paper and slides:
+This fork of OpenAI Baselines is modified to include an implementation of Nicholas Samoray's Undergrad Thesis: Regional Autoencoders with Deep Reinforcement Learning. All changed code is contained within the ```baselines/common/atari_wrappers.py``` file. The Regional Autoencoder is used only as a preprocessing step, with the final output being a 20 x 20 x 6 tensor to be fed into any network of your choosing. This means it can hypothetically work with any RL method the user wants. As to it's actual effectiveness for any given RL method however, that's a little less clear. For details on the implementation and general idea, check out the linked paper and slides:
 
 [Paper](https://drive.google.com/file/d/0ByPtgS8fLWfQZ2pwZUVPT00xYVVUYS1hbEc4SzJFVjNQLUVJ/view?usp=sharing)
 
